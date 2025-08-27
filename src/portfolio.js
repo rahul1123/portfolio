@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Technical Skills",
+  title: "What I do",
   subTitle: "Full Stack Developer with Expertise in Cloud, APIs, and Scalable Architectures",
   skills: [
     "⚡ Programming Languages: JavaScript (ES5 & ES6), PHP, TypeScript, Node.js",
@@ -61,7 +61,7 @@ const skillsSection = {
     "⚡ CMS: WordPress",
     "⚡ Cloud & DevOps: AWS Lambda, Amazon S3, Docker, GitHub/GitLab CI/CD"
   ],
-  projects: [
+    projects: [
     {
       title: "Scalable Lead Distribution System",
       role: "Full-stack Developer",
@@ -136,7 +136,7 @@ const skillsSection = {
       ]
     }
   ],
-  domainExpertise: {
+   domainExpertise: {
     VAS: [
       "Billing integrations with Airtel, MTS, Uninor, Reliance, Tata Docomo",
       "Developed MIS dashboards and shortcode-driven applications (SMS/USSD)",
@@ -149,8 +149,56 @@ const skillsSection = {
       "Developed predictive maintenance and load balancing",
       "Built real-time dashboards for charging sessions and billing"
     ],
-     display: true 
-  }
+
+
+  },
+
+  softwareSkills: [
+  // Programming Languages
+  { skillName: "JavaScript (ES5 & ES6)", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+
+  // Databases
+  { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "NoSQL", fontAwesomeClassname: "fas fa-database" },
+
+  // Frameworks
+  { skillName: "Express.js", fontAwesomeClassname: "fas fa-server" },
+  { skillName: "NestJS", fontAwesomeClassname: "fas fa-cubes" },
+  { skillName: "CodeIgniter", fontAwesomeClassname: "fas fa-fire" },
+
+  // Web Services & APIs
+  { skillName: "RESTful APIs", fontAwesomeClassname: "fas fa-plug" },
+  { skillName: "SOAP Services", fontAwesomeClassname: "fas fa-exchange-alt" },
+
+  // Event Streaming & Messaging
+  { skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream" },
+  { skillName: "Google Pub/Sub", fontAwesomeClassname: "fas fa-broadcast-tower" },
+  { skillName: "Amazon SQS", fontAwesomeClassname: "fas fa-envelope" },
+
+  // Caching Systems
+  { skillName: "Memcached", fontAwesomeClassname: "fas fa-memory" },
+  { skillName: "Redis", fontAwesomeClassname: "fas fa-database" },
+
+  // E-commerce Platforms
+  { skillName: "BigCommerce", fontAwesomeClassname: "fas fa-shopping-cart" },
+  { skillName: "Magento", fontAwesomeClassname: "fas fa-shopping-bag" },
+
+  // CMS
+  { skillName: "WordPress", fontAwesomeClassname: "fab fa-wordpress" },
+
+  // Cloud & DevOps
+  { skillName: "AWS Lambda", fontAwesomeClassname: "fab fa-aws" },
+  { skillName: "Amazon S3", fontAwesomeClassname: "fab fa-aws" },
+  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+  { skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab" }
+],
+
+  display: true // Set false to hide this section, defaults to true
 };
 
 
