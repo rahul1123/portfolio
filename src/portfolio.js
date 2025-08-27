@@ -48,77 +48,111 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skills",
+  subTitle: "Full Stack Developer with Expertise in Cloud, APIs, and Scalable Architectures",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ Programming Languages: JavaScript (ES5 & ES6), PHP, TypeScript, Node.js",
+    "⚡ Databases: MySQL, PostgreSQL, NoSQL",
+    "⚡ Frameworks: Express.js, NestJS, CodeIgniter",
+    "⚡ Web Services & APIs: RESTful APIs, SOAP-based Services",
+    "⚡ Event Streaming & Messaging: Apache Kafka, Google Pub/Sub, Amazon SQS",
+    "⚡ Caching Systems: Memcached, Redis",
+    "⚡ E-commerce Platforms: BigCommerce, Magento",
+    "⚡ CMS: WordPress",
+    "⚡ Cloud & DevOps: AWS Lambda, Amazon S3, Docker, GitHub/GitLab CI/CD"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
+  projects: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      title: "Scalable Lead Distribution System",
+      role: "Full-stack Developer",
+      duration: "1 month",
+      technologies: ["Node.js", "AWS Lambda", "SQS", "CloudWatch", "Elasticsearch"],
+      highlights: [
+        "Migrated monolithic PHP CRM to serverless Node.js on AWS Lambda",
+        "Handled 50,000+ leads/day with retry logic and error handling",
+        "Improved processing time by 40% and reduced costs by 25%"
+      ]
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      title: "Travel Itinerary Management System",
+      role: "Full-stack Developer",
+      duration: "1 year",
+      technologies: ["Node.js", "AWS Lambda", "SQS", "PostgreSQL", "CI/CD"],
+      highlights: [
+        "Built cloud-native travel itinerary management system",
+        "Automated booking workflows & CRM integrations",
+        "Implemented async fault-tolerant processing with SQS"
+      ]
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      title: "Booster",
+      role: "Project Lead",
+      duration: "1 year",
+      technologies: ["Node.js", "Kafka", "Docker", "AWS Cognito", "Keycloak"],
+      highlights: [
+        "Developed real-time geofencing platform for operations",
+        "Implemented secure service integrations with AWS Secret Manager",
+        "Led backend API, infra setup, and CI/CD automation"
+      ]
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      title: "inkmeso.com",
+      role: "Senior Developer",
+      duration: "1 year",
+      technologies: ["React.js", "Node.js", "PHP"],
+      highlights: [
+        "Developed custom e-commerce backend & REST APIs",
+        "Integrated React.js frontend with legacy PHP modules"
+      ]
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      title: "inkdotpot.com",
+      role: "Senior Developer",
+      duration: "1 year",
+      technologies: ["React.js", "Node.js"],
+      highlights: [
+        "Built backend APIs for scalable e-commerce site",
+        "Worked with frontend team for seamless integration"
+      ]
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      title: "Viaspot",
+      role: "Senior Developer",
+      duration: "6 months",
+      technologies: ["Laravel"],
+      highlights: [
+        "Delivered full-stack business application",
+        "Handled bug fixes, feature rollouts, and performance tuning"
+      ]
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      title: "Marketplace Integrations",
+      role: "Full-stack Developer",
+      duration: "2 years",
+      technologies: ["Node.js", "PHP"],
+      highlights: [
+        "Developed integrations with eBay, Walmart, Lazada",
+        "Built order sync, multi-channel listing & stock automation"
+      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  domainExpertise: {
+    VAS: [
+      "Billing integrations with Airtel, MTS, Uninor, Reliance, Tata Docomo",
+      "Developed MIS dashboards and shortcode-driven applications (SMS/USSD)",
+      "Built XHTML WAP portals for early mobile devices",
+      "Orchestrated SMS, MMS, and IVR communication strategies"
+    ],
+    EV: [
+      "Implemented OCPP 2.0 for EV charging stations",
+      "Integrated telematics & CRM for real-time analytics",
+      "Developed predictive maintenance and load balancing",
+      "Built real-time dashboards for charging sessions and billing"
+    ],
+     display: true 
+  }
 };
+
 
 // Education Section
 
